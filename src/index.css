@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary-blue: "#00d8ff";
+  --primary-blue: #00d8ff;
   --primary-purple: #6a00ff;
 }
 
@@ -46,7 +46,7 @@ h2 {
   background-image: linear-gradient(
     45deg,
     var(--primary-purple) 0%,
-    var(--primary-blue)
+    var(--primary-blue) 100%
   );
   color: #000;
   border: none;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .btn-outline {
-  background-color: transparent;
+  background: transparent;
   border: 1px solid var(--primary-blue);
   color: var(--primary-blue);
 }
